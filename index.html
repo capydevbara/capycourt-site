@@ -3,55 +3,185 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Capycourt: club night, sorted</title>
-<meta name="description" content="Capycourt is a free app that replaces the pegboard at social racket-sport club nights. Coming soon.">
+<title>Capycourt: Free Club Night Organiser for Badminton Clubs</title>
+<meta name="description" content="Capycourt is a free app that replaces the pegboard at social badminton and racket-sport club nights, with fair, balanced game suggestions. Join the Android testing.">
+<link rel="canonical" href="https://capycourt.com/">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
-<style>
-:root{--bg:#0f2233;--bar:#0a1824;--card:#fff8ec;--ink:#12222f;--muted:#52606b;--orange:#f2a15b;--teal:#0b6f63;--mint:#d2efe8;--light:#f4f8fa;--soft:#a9bccb}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--light);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
-.wrap{max-width:720px;margin:0 auto;padding:0 20px;width:100%}
-header{background:var(--bar);border-bottom:1px solid #1e3a52}
-header .wrap{display:flex;align-items:center;gap:12px;height:60px}
-header img{width:36px;height:36px;border-radius:9px}
-header strong{font-size:1.15rem}
-main{flex:1;padding:48px 0 32px}
-.hero{display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px}
-.hero img.art{width:min(300px,80vw);height:auto;border-radius:24px}
-.badge{background:var(--orange);color:var(--ink);font-weight:700;font-size:.85rem;border-radius:999px;padding:4px 14px}
-h1{font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.15;margin:0}
-.lead{color:var(--soft);font-size:1.1rem;max-width:34em;margin:0}
-.cards{display:grid;gap:14px;margin-top:44px}
-@media(min-width:640px){.cards{grid-template-columns:repeat(3,1fr)}}
-.card{background:var(--card);color:var(--ink);border-radius:16px;padding:16px}
-.card h2{font-size:1.02rem;margin:0 0 4px}
-.card p{margin:0;font-size:.93rem;color:var(--muted)}
-.contact{margin-top:44px;text-align:center;color:var(--soft)}
-.contact a{color:var(--orange);font-weight:700}
-footer{border-top:1px solid #1e3a52;padding:18px 0;color:var(--soft);font-size:.9rem}
-footer a{color:var(--soft);margin-right:16px}
-a:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
-</style>
+<meta name="theme-color" content="#0a1824">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Capycourt">
+<meta property="og:title" content="Capycourt: club night, sorted">
+<meta property="og:description" content="A free app that replaces the pegboard at social badminton and racket-sport club nights. Fair, balanced games and busy courts.">
+<meta property="og:url" content="https://capycourt.com/">
+<meta property="og:image" content="https://capycourt.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Capycourt: club night, sorted">
+<meta name="twitter:description" content="A free app that replaces the pegboard at social badminton and racket-sport club nights.">
+<meta name="twitter:image" content="https://capycourt.com/og-image.png">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Capycourt",
+  "alternateName": "Capycourt: Club Night Sorted",
+  "description": "A free app that replaces the pegboard at social badminton and racket-sport club nights. It checks players in, suggests fair and balanced games, and keeps courts busy.",
+  "applicationCategory": "SportsApplication",
+  "operatingSystem": "Android",
+  "url": "https://capycourt.com/",
+  "image": "https://capycourt.com/og-image.png",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
+  "publisher": { "@type": "Organization", "name": "Capycourt", "url": "https://capycourt.com/" }
+}
+</script>
 </head>
 <body>
-<header><div class="wrap"><img src="icon.png" alt=""><strong>Capycourt</strong></div></header>
-<main>
-<div class="wrap">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="icon.png" alt="" width="38" height="38">Capycourt</a>
+    <nav class="main" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#screens">Screenshots</a>
+      <a href="feedback.html">Feedback</a>
+      <a class="btn primary" href="#join">Join the testing</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
 <section class="hero">
-<img class="art" src="mascot-hero.png" alt="Capycourt capybara mascot playing badminton">
-<span class="badge">Coming soon</span>
-<h1>Club night, sorted.</h1>
-<p class="lead">Capycourt is a free app that replaces the pegboard at social racket-sport club nights. Check players in, get fair, balanced games, and keep the courts moving. Badminton first.</p>
+  <div class="wrap">
+    <div>
+      <span class="badge">Now in closed testing on Android</span>
+      <h1>Club night, <em>sorted.</em></h1>
+      <p class="lead">Capycourt is a free app that replaces the pegboard at social racket-sport club nights. Check players in, get fair, balanced games, and keep every court busy. Badminton first.</p>
+      <div class="cta">
+        <a class="btn primary" href="#join">Join the testing</a>
+        <a class="btn ghost" href="#how">See how it works</a>
+      </div>
+      <ul class="ticks">
+        <li>Free</li>
+        <li>No ads or tracking</li>
+        <li>Your data stays on your device</li>
+      </ul>
+    </div>
+    <div class="stage" aria-hidden="false">
+      <div class="phone a float"><img src="img/phone-courts.webp" width="480" height="981" alt="Capycourt courts screen showing suggested games for two courts and the waiting list" fetchpriority="high"></div>
+      <div class="phone b float"><img src="img/phone-changed.webp" width="480" height="981" alt="Capycourt courts screen with a game in play and the next game updated after a court freed up" fetchpriority="high"></div>
+    </div>
+  </div>
 </section>
-<section class="cards" aria-label="What Capycourt does">
-<div class="card"><h2>Fair games</h2><p>Suggests balanced matches by skill, so everyone gets a good game.</p></div>
-<div class="card"><h2>Keeps courts busy</h2><p>Longest wait goes first, with no more fighting over the pegboard.</p></div>
-<div class="card"><h2>Your data, your device</h2><p>Club data stays on your device, with an optional encrypted backup to your own Google Drive.</p></div>
+
+<section id="how">
+  <div class="wrap">
+    <p class="eyebrow">How a club night runs</p>
+    <h2>Three taps from arrival to game on</h2>
+    <p class="sub">Leave the tablet at the side of the court. Players check in, Capycourt does the thinking, and the organiser gets the night back.</p>
+    <div class="grid g3">
+      <div class="card step reveal"><span class="n">1</span><h3>Check in</h3><p>Tap a name to check a player in. Add guests on the night, and let anyone sit out when they need a break.</p></div>
+      <div class="card step reveal"><span class="n">2</span><h3>Get fair games</h3><p>Capycourt suggests balanced matches for every free court, so people get good games without anyone juggling names.</p></div>
+      <div class="card step reveal"><span class="n">3</span><h3>Keep courts moving</h3><p>Start the game, record the result, and the next one is ready. Made a mistake? Undo, shuffle or swap players by hand.</p></div>
+    </div>
+  </div>
 </section>
-<p class="contact">Running a club and want to try it? <a href="mailto:capydevbara@gmail.com">Get in touch</a></p>
-</div>
+
+<section class="alt" id="features">
+  <div class="wrap">
+    <p class="eyebrow">Smarter than a queue</p>
+    <h2>Fair games come from more than waiting time</h2>
+    <p class="sub">Capycourt looks at everyone's skill rating, how many games they have played, how long they have waited and how often pairs have played together recently. Then it suggests the games that give the fairest night.</p>
+    <div class="grid g3">
+      <div class="card reveal"><div class="ic" aria-hidden="true">⚖</div><h3>Balanced, fair matching</h3><p>Suggestions weigh skill ratings, games played, waiting time and recent partners, so games are close and the same four don't keep meeting.</p></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">⏱</div><h3>Nobody left waiting</h3><p>People who have waited a while are guaranteed a place in an upcoming game, and a short break never costs anyone their turn.</p></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">🔄</div><h3>Adapts as courts free up</h3><p>When a court finishes, the next game is reworked to keep players rotating. Changes are highlighted so you can see what moved.</p></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">📈</div><h3>Ratings that learn</h3><p>Skill ratings update from real results, and new players are marked until they have played enough games to settle.</p></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">🎛</div><h3>Your club, your rules</h3><p>Choose how mixed games are, set the number of courts, and take a court out of use mid-session.</p></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">🔒</div><h3>Your data, your device</h3><p>Club data stays encrypted on your device. Optional automatic backup goes to your own Google Drive, locked with your passphrase.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="screens">
+  <div class="wrap">
+    <p class="eyebrow">See it in action</p>
+    <h2>Built for the side of the court</h2>
+    <p class="sub">Big buttons, clear names and nothing to fiddle with when the next game is waiting.</p>
+    <div class="shots">
+      <figure class="reveal"><div class="phone-frame"><img src="img/phone-courts.webp" width="480" height="981" loading="lazy" alt="Suggested games on each court, with a waiting list at the bottom"></div><figcaption>Suggested games, ready to go</figcaption></figure>
+      <figure class="reveal"><div class="phone-frame"><img src="img/phone-nextup.webp" width="480" height="981" loading="lazy" alt="The Next up window showing who plays next and who is guaranteed a place"></div><figcaption>See who plays next</figcaption></figure>
+      <figure class="reveal"><div class="phone-frame"><img src="img/phone-members.webp" width="480" height="981" loading="lazy" alt="Members list with a search box and a tap to check in"></div><figcaption>Check in with a tap</figcaption></figure>
+      <figure class="reveal"><div class="phone-frame"><img src="img/phone-rules.webp" width="480" height="981" loading="lazy" alt="Game rules screen with gender mix options"></div><figcaption>Game rules, your way</figcaption></figure>
+      <figure class="reveal"><div class="phone-frame"><img src="img/phone-backup.webp" width="480" height="981" loading="lazy" alt="Backup settings with optional automatic backup to Google Drive"></div><figcaption>Optional Drive backup</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Phone or tablet</p>
+      <h2>Run the whole night from one tablet</h2>
+      <p class="sub">Capycourt works on Android phones and tablets. A tablet at the side of the court shows every court, the waiting list and the next game at a glance.</p>
+      <ul class="list">
+        <li><div><strong>Learn it in minutes.</strong> <span>A built-in tutorial and a practice club let organisers try everything without touching real data.</span></div></li>
+        <li><div><strong>Bring your members.</strong> <span>Import members and ratings from a spreadsheet, and export them whenever you like.</span></div></li>
+        <li><div><strong>Keep control.</strong> <span>An organiser PIN protects settings, and members agree to a privacy notice in the app.</span></div></li>
+      </ul>
+    </div>
+    <div class="tabletshot reveal"><img src="img/tablet-changed.webp" width="1000" height="597" loading="lazy" alt="Capycourt on a tablet showing four courts, a waiting list and highlighted changes to the next game"></div>
+  </div>
+</section>
+
+<section id="join">
+  <div class="wrap joinwrap">
+    <div>
+      <img class="mascot" src="img/mascot.webp" width="420" height="420" loading="lazy" alt="Capycourt capybara mascot mid-smash with a badminton racket">
+    </div>
+    <div class="formcard reveal">
+      <h3>Join the testing</h3>
+      <p>Capycourt is in closed testing on Android. Pop your email in and we will send you an invitation to try it with your club.</p>
+      <form data-form="tester" novalidate>
+        <input type="hidden" name="access_key" value="e7b4ca57-0fbe-4cb3-a700-4665fd7c265a">
+        <input type="hidden" name="subject" value="Capycourt tester signup">
+        <input type="hidden" name="from_name" value="Capycourt website">
+        <div class="hp" aria-hidden="true"><input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></div>
+        <label for="t-name">First name <small>(optional)</small></label>
+        <input id="t-name" type="text" name="name" autocomplete="given-name">
+        <label for="t-email">Email <small>(use the Gmail address you use for Google Play)</small></label>
+        <input id="t-email" type="email" name="email" required autocomplete="email">
+        <label class="check" for="t-consent"><input id="t-consent" type="checkbox" name="consent" required><span>I have an Android phone or tablet, and I'm happy for you to email me about testing Capycourt.</span></label>
+        <button class="btn primary" type="submit">Add me to the list</button>
+        <div class="status" role="status" aria-live="polite"></div>
+        <p class="fine">We only use your email to invite you to the test and to ask how it went. See our <a href="privacy.html">Privacy Policy</a>.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="faq">
+  <div class="wrap">
+    <p class="eyebrow">Questions</p>
+    <h2>Good to know</h2>
+    <details><summary>Is Capycourt free?</summary><p>Yes. The app is free, with no ads and no tracking.</p></details>
+    <details><summary>Which sports does it work for?</summary><p>Capycourt is built for social badminton club nights first. Any doubles racket-sport club that rotates players through courts can try it.</p></details>
+    <details><summary>Do my members need to install anything?</summary><p>No. The organiser runs the night from one phone or tablet. Members just turn up and check in.</p></details>
+    <details><summary>Is there an iPhone version?</summary><p>Not yet. Capycourt is on Android first, and an iPhone version is planned for later.</p></details>
+    <details><summary>Where is my club's data stored?</summary><p>On the organiser's device, encrypted. The organiser can also switch on automatic backup to their own Google Drive. Backups are locked with a passphrase that only they hold. Read the <a href="privacy.html">Privacy Policy</a> for the details.</p></details>
+    <details><summary>How do I send feedback or report a problem?</summary><p>Use the <a href="feedback.html">feedback page</a>. It only takes a minute, and we read everything.</p></details>
+  </div>
+</section>
 </main>
-<footer><div class="wrap"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></div></footer>
+
+<footer class="site">
+  <div class="wrap">
+    <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="feedback.html">Feedback</a></div>
+    <div>© 2026 Capycourt · <a href="mailto:capydevbara@gmail.com" style="margin:0">capydevbara@gmail.com</a></div>
+  </div>
+</footer>
+<script src="forms.js" defer></script>
 </body>
 </html>

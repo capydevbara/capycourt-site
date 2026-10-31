@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Send Feedback | Capycourt</title>
+<meta name="description" content="Found a bug or have an idea for Capycourt? Send feedback in a minute with this short form.">
+<link rel="canonical" href="https://capycourt.com/feedback.html">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta name="theme-color" content="#0a1824">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Send feedback | Capycourt">
+<meta property="og:description" content="Found a bug or have an idea for Capycourt? Tell us in a minute.">
+<meta property="og:url" content="https://capycourt.com/feedback.html">
+<meta property="og:image" content="https://capycourt.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="icon.png" alt="" width="38" height="38">Capycourt</a>
+    <nav class="main" aria-label="Main">
+      <a href="/#how">How it works</a>
+      <a href="/#screens">Screenshots</a>
+      <a class="btn primary" href="/#join">Join the testing</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="page">
+  <div class="wrap">
+    <h1>Tell us what you think</h1>
+    <p class="lead">Found a bug, got an idea, or just have a question? This takes about a minute, and we read every message.</p>
+    <div class="formcard">
+      <form data-form="feedback" novalidate>
+        <input type="hidden" name="access_key" value="e7b4ca57-0fbe-4cb3-a700-4665fd7c265a">
+        <input type="hidden" name="subject" value="Capycourt feedback">
+        <input type="hidden" name="from_name" value="Capycourt website">
+        <div class="hp" aria-hidden="true"><input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></div>
+
+        <label for="f-name">Name</label>
+        <input id="f-name" type="text" name="name" required autocomplete="name">
+
+        <label for="f-email">Email <small>(only needed if you would like a reply)</small></label>
+        <input id="f-email" type="email" name="email" autocomplete="email">
+
+        <label for="f-type">What is this about?</label>
+        <select id="f-type" name="type">
+          <option>Something is not working</option>
+          <option>An idea or suggestion</option>
+          <option>A question</option>
+          <option>Something I like</option>
+          <option>Something else</option>
+        </select>
+
+        <label for="f-device">Device and app version <small>(optional, helps with bugs)</small></label>
+        <input id="f-device" type="text" name="device" placeholder="For example: Samsung tablet, version 1.0.1">
+
+        <label for="f-message">Your message</label>
+        <textarea id="f-message" name="message" required minlength="10" placeholder="What happened, or what would make Capycourt better?"></textarea>
+
+        <label class="check" for="f-consent"><input id="f-consent" type="checkbox" name="consent"><span>I'm happy for you to contact me about this feedback. (If you tick this, please add your email above.)</span></label>
+
+        <button class="btn primary" type="submit">Send feedback</button>
+        <div class="status" role="status" aria-live="polite"></div>
+        <p class="fine">We use what you send only to look into your feedback and, if you ticked the box, to reply. See our <a href="privacy.html">Privacy Policy</a>. Prefer email? Write to <a href="mailto:capydevbara@gmail.com">capydevbara@gmail.com</a>.</p>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="feedback.html">Feedback</a></div>
+    <div>© 2026 Capycourt</div>
+  </div>
+</footer>
+<script src="forms.js" defer></script>
+</body>
+</html>
